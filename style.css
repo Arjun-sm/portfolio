@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: rgb(116, 199, 219);
+    width: 20vw;
+
+}
+
+.sidebar nav {
+    padding: 30px;
+    margin: 10px;
+    height: 90vh;
+}
+
+.sidebar nav li {
+    background-color: #548088;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.main {
+    background-color: aqua;
+    width: 100vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+
+    background-color: rgb(20, 238, 118);
+
+    height: 78vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 93px;
+    padding-top: 3px;
+}
+
+.hello { 
+    font-size: 30px;
+}
+
+.name {
+    font-size: 58px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about {
+    font-size: 35px;
+
+
+}
+
+.aboutmore {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+
+.button button {
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+   cursor: pointer;
+
+}
+.button button:hover{
+    color: rgb(34, 34, 39);
+    background-color: rgb(180, 173, 173);
+}
+
+
+.devpic img {
+    width: 323px;
+    height: 78vh;
+    flex-direction: row;
+
+}
+
+
+.contactform {
+padding: 150px 0px 0px 200px;
+}
+
+.contactform h1{
+    padding-top: 20px;
+
+    font-family: sans-serif;
+}
+
+.mb-3{
+    padding-top: 50px;
+}
+
+.blogcontainer h1{
+    padding: 10px 0px 0px 10px;
+    color: rgb(70, 55, 36);
+}
+
+.blogItem{
+    padding: 50px 0px 0px 100px;
+}
+
+.button {
+
+   padding-top: 30px;
+
+}
+
+.myskill{
+    padding-top: 30px  ;
+    padding-left: 40px;
+ 
+}
+
+.skillitem{
+    display: flex;
+    padding-top: 20px;
+   
+}
+.skillt1 {
+    height: 5px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 4px solid rgb(18, 19, 18);
+}
+
+
